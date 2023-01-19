@@ -1,12 +1,9 @@
-# Book-Recommendation-System
-Book Recommendation System - Unsupervised Machine Learning Capstone Project
-
 <h1 align="center"> Book Recommendation System </h1>
 <h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
 
-![image](https://editor.analyticsvidhya.com/uploads/94559Untitled%20design.png)
+![image](https://images.unsplash.com/photo-1670409702404-7bebbe0721cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2580&q=80)
 
-<p>I have developed a model which can recommend a book to a user on his preference in Python using the Colaborative Filtering.</p>
+<p>This model can recommend a book to a user on his/her preference in Python using the Colaborative Filtering.</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -16,7 +13,7 @@ Book Recommendation System - Unsupervised Machine Learning Capstone Project
   * [Overview](#overview)
   * [Technologies Used](#technologies-used)
 
-This project is aimed at recommend a book to a user on his preference.
+This project is aimed at recommending a book based on user preference.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -24,34 +21,34 @@ This project is aimed at recommend a book to a user on his preference.
 
 <h2> :book: Dataset information:</h2>
 
-There are 10 variables:
+3 different datasets are used to get finally dataset, these 3 datasets are 
 
-* User-ID.
+1. 'Books' - it has the required data about books.
+2. 'Ratings' - it has the ratings of the books given by users.
+3. 'Users' - it has the discription about the user
 
-* Location
+The final dataset that is created with the help of above 3 datasets has the following 7 columns (features):
 
-* Age
+* user_id.
 
-* ISBN - Books are identified by their respective ISBN.
+* ISBN
 
-* Book-Title
+* rating
 
-* Book-Author
+* title (book title)
 
-* Year-Of-Publication
+* author
 
-* Publisher
+* year (year of publication)
 
-* URLs - linking to cover images are also given, appearing in three different flavors (Image-URL-S, Image-URL-M, Image-URL-L), i.e., small, medium, large.
-
-* Book-Rating
+* publisher
  
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2> :book: Overview:</h2>
 
-In a very general way, recommender systems are algorithms aimed at suggesting relevant items to users (items being movies to watch, text to read, products to buy, or anything else depending on industries). Recommender systems are really critical in some industries as they can generate a huge amount of income when they are efficient or also be a way to stand out significantly from competitors. The main objective is to create a book recommendation system for users.
+In a very general way, recommendation systems are algorithms which are aimed at suggesting relevant items to users such as movies, books or other products. Recommender systems are really critical in some industries as they can generate a huge amount of income when they are efficient or also be a way to stand out significantly from competitors. The main objective of this project is to create a book recommendation system for users.
 
 Technology and tools wise this project covers,
 
@@ -69,14 +66,14 @@ Technology and tools wise this project covers,
 <!-- CREDITS -->
 <h2 id="credits"> :scroll: Credits</h2>
 
-< Lakshmi Narayana > | Data Scientist | Machine Learning Engineer | Deep Learning enthusiast
+< Vikas Chaudhary > | Data Science Enthusiast
 
-<p> <i> Contact me for Data Science Project Collaborations</i></p>
+<p> <i> Contact me for Data Science Project Collaborations and Research</i></p>
 
 
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lakshmi-narayana-186a77183/)
-[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Narayan718)
-[![Medium Badge](https://img.shields.io/badge/Medium-1DA1F2?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/me/stories/public)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/chvikas/)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vikaschaudhary53)
+[![Medium Badge](https://img.shields.io/badge/Medium-1DA1F2?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@chvikas)
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
