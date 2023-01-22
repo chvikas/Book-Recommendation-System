@@ -1,7 +1,8 @@
 <h1 align="center"> Book Recommendation System </h1>
-<h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
 
 ![image](https://images.unsplash.com/photo-1670409702404-7bebbe0721cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2580&q=80)
+
+<h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
 
 <p>This model can recommend a book to a user on his/her preference in Python using the Colaborative Filtering.</p>
 
