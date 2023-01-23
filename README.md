@@ -8,27 +8,59 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2> :floppy_disk: Table of Content</h2>
+<h2> 💾 Table of Content</h2>
 
-  * [Dataset Information](#dataset-information)
-  * [Overview](#overview)
-  * [Technologies Used](#technologies-used)
+  * Overview Dataset Information
+  * Dataset Information
+  * EDA and Feature Engineering
+  * Model
+  * Result
 
 This project is aimed at recommending a book based on user preference.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
+<h2> 🌐 Overview</h2>
 
-<h2> :book: Dataset information:</h2>
+In a very general way, recommendation systems are algorithms which are aimed at suggesting relevant items to users such as movies, books or other products. Recommender systems are really critical in some industries as they can generate a huge amount of income when they are efficient or also be a way to stand out significantly from competitors. The main objective of this project is to create a book recommendation system for users.
 
+Technology and tools wise this project covers,
+
+1. Python
+
+2. Numpy and Pandas for data cleaning
+
+3. Data visualization
+
+4. Sklearn for model building
+
+5. Jupiter Notebook
+ 
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h2> 📖 Dataset Information</h2>
 3 different datasets are used to get finally dataset, these 3 datasets are 
 
 1. 'Books' - it has the required data about books.
+<p align="left" width="100%">
+    <img width="100%" src="https://user-images.githubusercontent.com/90998859/214016283-0f7492fd-1bdc-4318-bcea-440619e8cf74.png">
+</p>
 2. 'Ratings' - it has the ratings of the books given by users.
+<p align="left" width="100%">
+    <img width="100%" src="https://user-images.githubusercontent.com/90998859/214017302-a97d8883-27da-43f0-bfec-9b8ca66253a8.png">
+</p>
 3. 'Users' - it has the discription about the user
+<p align="left" width="100%">
+    <img width="100%" src="https://user-images.githubusercontent.com/90998859/214016763-030b33df-82ff-4b60-b2eb-2264ecdeeaa6.png">
+</p>
 
 The final dataset that is created with the help of above 3 datasets has the following 7 columns (features):
+
+<p align="left" width="100%">
+    <img width="100%" src="https://user-images.githubusercontent.com/90998859/214018736-37840006-ee2c-4a63-b833-6bbb35035927.png">
+</p>
 
 * user_id.
 
@@ -43,27 +75,30 @@ The final dataset that is created with the help of above 3 datasets has the foll
 * year (year of publication)
 
 * publisher
- 
+
+![--------------------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<h2> 👷‍♂️ EDA and Feature Engineering</h2>
+
+* Missing Values Imputation
+
+* Graphical Representation of all Datasets
+  
+  It includes 'Joint Plot', 'Bar Graph', 'Line Chart', etc.
+
+* 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<h2> 💻 Model</h2>
 
-<h2> :book: Overview:</h2>
-
-In a very general way, recommendation systems are algorithms which are aimed at suggesting relevant items to users such as movies, books or other products. Recommender systems are really critical in some industries as they can generate a huge amount of income when they are efficient or also be a way to stand out significantly from competitors. The main objective of this project is to create a book recommendation system for users.
-
-Technology and tools wise this project covers,
-
-1.Python
-
-2.Numpy and Pandas for data cleaning
-
-3.Data visualization
-
-4.Sklearn for model building
-
-5.Jupiter Notebook
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<h2> 🎖️ Result</h2>
 
+The model is provinding the similarity results based on the distance:
+<p align="left" width="100%">
+    <img width="100%" src="https://user-images.githubusercontent.com/90998859/214020035-c9b9141e-5681-4963-bb19-884a57c4fc39.png">
+</p>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <!-- CREDITS -->
 <h2 id="credits"> :scroll: Credits</h2>
 
