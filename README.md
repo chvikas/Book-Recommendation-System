@@ -84,14 +84,38 @@ The final dataset that is created with the help of above 3 datasets has the foll
 * Graphical Representation of all Datasets
   
   It includes 'Joint Plot', 'Bar Graph', 'Line Chart', etc.
+  
+  <p align="center" width="100%">
+    <img width="30%" src="https://user-images.githubusercontent.com/90998859/214028381-f2cbdb64-7331-463d-aced-dfcbe51b7f80.png">
+    <img width="30%" src="https://user-images.githubusercontent.com/90998859/214028646-cade80c0-2280-44b9-94c6-c0916cc3c936.png">
+    <img width="30%" src="https://user-images.githubusercontent.com/90998859/214028959-144a8a93-4f0e-445d-8629-e3deffc23e17.png">
+</p>
 
-* 
+* New Features are created based on existing ones
+
+* Features with less utilization are removed
+
+* All 3 datasets are merged into one dataset with important features to train
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <h2> 💻 Model</h2>
 
+The following steps are covered while training the clean dataset into the algorithm:
+
+i. The final dataset has been converted into pivot table. 
+
+ii. The pivot table has been transformed into Spars Matrix with "scipy" library
+
+iii. The given spars matrix has been trained on 'NearestNeighbors' with ‘brute’ algorithm.
+
+![image](https://user-images.githubusercontent.com/90998859/214027808-380aad52-b019-4813-af4c-0ca00fb80b00.png)
+
+
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <h2> 🎖️ Result</h2>
+
+The trained model gives the books suggestions based on the searched book along with the distance of similarity. The book with the least distance has been ranked on the top and the model is assigned to provide the 5 books.
 
 The model is provinding the similarity results based on the distance:
 <p align="left" width="100%">
